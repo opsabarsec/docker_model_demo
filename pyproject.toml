@@ -1,0 +1,26 @@
+[project]
+name = "genai-accelerator-labs"
+version = "0.1.0"
+description = "Lab exercises for the GenAI Accelerator by Datalumina"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "pydantic-ai>=0.2.3",
+    "pydantic>=2.11.4",
+    "python-dotenv>=1.1.0",
+    "requests>=2.32.4",
+    "fastapi>=0.115.12",
+    "pytest>=8.4.1",
+]
+
+[dependency-groups]
+dev = [
+    "jupyter>=1.1.1",
+]
+
+[tool.pytest.ini_options]
+python_files = ["test_*.py", "*_test.py", "*-unit-tests.py"]
+filterwarnings = [
+    "ignore::pytest.PytestAssertRewriteWarning"
+]

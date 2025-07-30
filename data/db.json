@@ -1,0 +1,22 @@
+{
+    "australian28": {
+        "age": 28,
+        "name": "Alice Smith",
+        "dating_profile": "Loves hiking, coffee, and indie music."
+    },
+    "canadian34": {
+        "age": 34,
+        "name": "Brian Lee",
+        "dating_profile": "Enjoys cooking, movies, and travel."
+    },
+    "mexican25": {
+        "age": 25,
+        "name": "Carla Gomez",
+        "dating_profile": "Dog lover, artist, and foodie."
+    },
+    "korean31": {
+        "age": 31,
+        "name": "David Kim",
+        "dating_profile": "Tech enthusiast, gamer, runner."
+    }
+}
