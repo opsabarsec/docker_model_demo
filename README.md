@@ -1,4 +1,5 @@
-# docker_model_demo
+# Use a local LLM to question your sensitive data
+
 This is a small demo to write a python code that interacts with a local database and LLM.
 
 The database is simulated with a simple json file.
